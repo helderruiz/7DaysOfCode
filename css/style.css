@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --cinza: #667085;
+    --vermelho: #8E2424;
+    --preto: #101828;
+  }
+  
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    color: var(--cinza);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 80px;
+    font-weight: 500;
+}
+
+.navbar__conteudo {
+    display: flex;
+    gap: 40px;
+    margin-right: 25%;
+}
+
+.navbar__conteudo-link {
+    color: var(--cinza);
+    cursor: pointer;
+}
+
+.navbar__botoes {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.navbar__botoes-cadastrar {
+    background-color: var(--vermelho);
+    color: #FFFFFF;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+}
+
+/* Cabeçalho - Primeira seção */
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    height: 407px;
+    padding: 96px 0px;
+}
+
+.cabecalho__generico {
+    color: var(--vermelho);
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.cabecalho__titulo {
+    color: var(--preto);
+    font-weight: 600;
+    font-size: 3em;
+}
+
+.cabecalho__paragrafo {
+    width: 792px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.metricas {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 0 80px 96px;
+}
+
+.metrica__individuais {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 280px;
+}
+
+.metrica_titulo {
+    color: var(--vermelho);
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.metrica__generico {
+    color: var(--preto);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0;
+}
+
+.vagas__generico {
+    color: var(--vermelho);
+    padding: 4px 12px;
+    text-align: center;
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+
+.vagas__titulo {
+    color: var(--preto);
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.vagas__paragrafo {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 64px;
+}
+
+.imagem__vagas {
+    width: 1216px;
+    height: 400px;
+    margin-bottom: 64px;
+}
+
+.vagas__titulo--descricao {
+    color: var(--preto);
+    font-size: 20px;
+    font-weight: 500;
+    width: 768px;
+    margin: 64px 0 32px;
+}
+
+.vagas__descricao {
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.vagas__descricao--lista {
+    padding: 24px 24px 28px;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+}
+
+.vagas__titulo--generico {
+    color: var(--preto);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+
+.vagas__descricao--paragrafo {
+    font-size: 1em;
+    font-weight: 500;
+    margin-right: 24px;
+}
+
+.comentarios {
+    padding: 64px;
+    margin: 0 80px 96px 80px;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comentarios__generico {
+    color: var(--vermelho);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.comentarios__titulo {
+    color: var(--preto);
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: -.02em;
+    margin: 16px 0 32px;
+}
+
+.imagem__comentario {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 16px;
+}
+
+.comentario__nome {
+    color: var(--preto);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.comentario__profissao {
+    font-size: 14px;
+    font-weight: 400;
+}
