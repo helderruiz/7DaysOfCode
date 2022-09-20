@@ -143,4 +143,59 @@
         padding: 0.8em 1em;
         margin: auto;
     }
+
+    /* Menu hamburguer */
+    .menu {
+        border: none;
+        background-color: transparent;
+        font-size: 2em;
+        cursor: pointer;
+        position: absolute;
+        right: 6%;
+    }
+
+    .menu-lateral {
+        display: flex;
+        flex-direction: column;
+        background-color: #ffe9e9;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        width: 45vw;
+        height: 50vh;
+        position: absolute;
+        top: 10%;
+        right: -100vw;
+        transition: 1s;
+        padding: .5em;
+    }
+
+    .menu-lateral--ativo {
+        top: 10%;
+        right: 0;
+        transition: 1s;
+    }
+    .menu-lateral__link {
+        height: 80px;
+        color: var(--preto);
+        font-weight: 600;
+        padding-left: 1.5em;
+        text-align: start;
+    }
+
+    .menu-lateral--entrar {
+        color: var(--cinza);
+        font-weight: 600;
+        margin-top: 1.5em;
+    }
+
+    .menu-lateral--cadastrar {
+        background-color: var(--vermelho);
+        color: #ffffff;
+        border-radius: 8px;
+        width: 65%;
+        height: 3em;
+        text-align: center;
+        padding: .5em 0;
+        margin-left: 13%;
+    }
 }
