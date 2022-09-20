@@ -152,6 +152,7 @@
         cursor: pointer;
         position: absolute;
         right: 6%;
+        display: block;
     }
 
     .menu-lateral {

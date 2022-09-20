@@ -264,3 +264,11 @@ body {
     font-size: 16px;
 }
 
+/* tirando menu mobile do desktop */
+
+.menu {
+    display: none;
+}
+.menu-lateral {
+    display: none;
+}
