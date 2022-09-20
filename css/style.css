@@ -272,3 +272,9 @@ body {
 .menu-lateral {
     display: none;
 }
+
+@media screen and (max-width: 1059px) {
+    .navbar__conteudo {
+        margin-right: 10%;
+    }
+}
